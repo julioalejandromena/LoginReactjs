@@ -11,7 +11,7 @@ function GitHub({ name })
 {
     return (
         <div>
-            <img src={profil} alt="profil" width="200px"/>
+            <img className="github" src={profil} alt="profil" width="200px"/>
             <br />
             <br />
             <h3 style={{color : "green"}}>You Are All Welcome!</h3>
@@ -45,8 +45,8 @@ function GitHub({ name })
                         <img src={facebook} alt="twitter" width={"50px"} />
                     </button>
                 </a>
-
             </div>
+            <br /><br />
         </div>
     )
     
